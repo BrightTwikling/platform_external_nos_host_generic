@@ -36,6 +36,7 @@ license {
 cc_library {
     name: "libnos_datagram",
     defaults: ["nos_cc_host_supported_defaults"],
+    recovery_available: true,
 }
 
 cc_library {
